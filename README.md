@@ -20,6 +20,7 @@ Settings
 - Schema: output schema is predefined as the follows:
 
     **key**: the document key as stored in the couchbase cluster.
+
     **value**: the entire json document.
 
 - To dump the json documents to other databases, console, etc. Please refer to tParseJson (https://github.com/ijokarumawak/tParseJSON), which takes a json document as input and produces an output according to the schema. 
